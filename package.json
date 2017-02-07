@@ -1,16 +1,32 @@
 {
   "name": "bootstrap-lite",
   "version": "1.0.0",
-  "description": "",
+  "description": "bootstrap light version includes only grid, responsive utilities and scaffolding",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "zerooverflow",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "latest",
     "gulp-clean-css": "latest"
-  }
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerooverflow/bootstrap-lite.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/zerooverflow/bootstrap-lite/issues"
+  },
+  "homepage": "https://github.com/zerooverflow/bootstrap-lite#readme"
 }
